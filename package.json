@@ -1,5 +1,6 @@
-{
+{ "author": "Kelvin Mugamba",
   "name": "fcc-learn-node-with-express",
+  "description": "This is application to show the work on node.js",
   "version": "0.1.0",
   "dependencies": {
     "body-parser": "^1.15.2",
