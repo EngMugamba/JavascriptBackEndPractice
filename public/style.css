@@ -1,16 +1,31 @@
-/* the 'body' selector is required for the tests to pass */
-/* You can change the style attributes if you want */
-body {
-  background-color: #222;
-  color: #ddd;
+
+h1, h2, p {
   text-align: center;
-  font-family: sans-serif;
+
+}
+ body {
+  background-image:"(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)";
+
+}
+.menu {
+ background-color: burlywood;
+ margin-left: auto;
+ margin-right: auto;
 }
 
-h1 {
-  font-size: 4em;
+#Kelvin { 
+  width: 80%; 
 }
+.dessert {
+  /*text-align: right;*/
+  width: 40%;
+ }
+ .price {
+  text-align: right;
+  width: 50%;
 
-input[type=text], label {
-  margin-bottom: 8px;
-}
+ }
+ .item {
+   /*display: inline-block ;*/
+   width:40%;
+ }
